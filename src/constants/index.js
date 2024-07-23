@@ -8,13 +8,7 @@ import port07 from "../assets/img/port07.jpg";
 import port08 from "../assets/img/port08.jpg";
 import port09 from "../assets/img/port09.jpg";
 import port10 from "../assets/img/port10.jpg";
-import { contactText } from "../constants";
-import { footerText } from "../constants";
-import { headerNav } from "../constants";
-import { introText } from "../constants";
-import { portText } from "../constants";
-import { siteText } from "../constants";
-import { skillText } from "../constants";
+
 
 export const headerNav = [
     {
