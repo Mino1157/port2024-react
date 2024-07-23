@@ -1,11 +1,27 @@
-import React from 'react'
-
-const Contact = () => {
-  return (
-    <div>
-      Contact
+import React from "react";
+const contactText = [
+  {
+      link: "https://open.kakao.com/o/gM7YLzwf",
+      title: "KAKAO : webstupids",
+  },
+  {
+      link: "mailto:webstoryboy@naver.com",
+      title: "mail : webstoryboy@naver.com",
+  },
+];
+<div className="contact__text">
+    <div className="text">
+        {contactText.map((contact, key) => (
+            <div key={key}>
+                <a
+                    href={contact.link}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                    {contact.title}
+                </a>
+            </div>
+        ))}
     </div>
-  )
-}
-
-export default Contact
+</div>
+export default Contact;
